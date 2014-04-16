@@ -3,3 +3,4 @@
 DeluciaEmber.Router.map () ->
   @resource 'customers'
   @resource 'sessions'
+  @resource 'calendars'

@@ -1,0 +1,8 @@
+<h3 class="calendars_heading">Now in the Calendars Index</h3>
+<ul class="calendars_list">
+     {{#each calendar in controller}}
+       <li>Day: {{calendar.day}}</li>
+       <li>Event: {{calendar.event}}</li>
+       <li>Notes: {{calendar.notes}}</li>
+     {{/each}}
+</ul>
